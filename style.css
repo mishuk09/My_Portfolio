@@ -1,3 +1,10 @@
+* {
+  margin:0px;
+  padding:0px;
+}
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Sofia+Sans+Condensed:wght@300&display=swap');
 
 
@@ -20,6 +27,54 @@ body{
 .nav li{
   padding: 10px;
 }
+
+.hr1{
+  margin-top: 0px;
+}
+
+/* Home page start */
+
+
+.description {
+  margin-top: 150px;
+
+}
+
+.description h1{
+  font-weight: 700;
+  font-size: 50px;
+  color: orange ;
+  
+}
+
+.description h2{
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: 700;
+  
+}
+
+.description h3{
+   font-weight: 700;
+  
+}
+.description p{
+  font-weight:500;
+  font-size: 18px;
+  background-color: rgb(255, 255, 209);
+  border-radius: 6px;
+  margin-top: 30px;
+ 
+}
+
+
+
+.head-img{
+  width: 830px;
+  margin-top: 20px;
+  border-radius: 7px  ;
+}
+
 
 
 
