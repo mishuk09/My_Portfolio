@@ -22,18 +22,37 @@ body{
 
 .nav{
   margin-top: 0px;
-  margin-left: 460px;
+  margin-left: 500px;
+  font-weight: 700;
+ 
+}
+
+.nav ul li:hover{
+  background-color: green;
+  color:  white;
+  font-weight: 700;
+  border-radius: 7px;
+   
 }
 .d-flex {
-  margin-left: 50px;
+   
+  margin-right: 0px;
 }
 
 .nav li{
-  padding: 7px;
+   
 }
 
 .hr1{
   margin-top: 0px;
+}
+
+.button0{
+  margin: 0px;
+}
+
+.form-control{
+  margin-left: 0px;
 }
 
 /* Home page start */
@@ -58,8 +77,13 @@ body{
   
 }
 
+#style-p{
+  background-color: white;
+  font-weight: 700;
+}
 .description h3{
    font-weight: 700;
+   padding-left: 0px;
   
 }
 .description p{
@@ -147,6 +171,7 @@ body{
 
   margin-top: 50px;
   margin-left: 0px;
+  
 
 
 }
@@ -170,7 +195,7 @@ body{
 }
 
 .about-detils {
-  
+
  padding: 30px;
  
 
@@ -274,84 +299,8 @@ body{
 
 
 
-
-
-.footer{
-    background-color: black;
-    height: 100px;
-}
-.footer h2{
-    text-align: center;
-     padding-top: 10px;
-     color: white;
-     font-size: 16px;
-     font-weight: 700;
-}
-footer img{
-    width: 25px;
-    background-color: white;
-    border-radius: 100%;
-    text-align: center;
-    justify-content: center;
-}
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 
@@ -366,7 +315,7 @@ footer img{
 .div6 h2{
   color: white;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
   
   
 
@@ -385,27 +334,17 @@ footer img{
 
 .footer-header0 h2{
   margin-top: 0px;
+  font-size: 22px;
    
   
 }
 
-.small-icon img{
-  width: 20px;
-  background-color: white;
-  margin-left: 10px;
-  border: none;
-  border-radius: 50%;
+ 
+ 
    
-    
-
-}
-
-.small-icon{
-  text-align: center;
-
-   
-}
+ 
 
 .div6 p{
-  padding-bottom: ;
+  padding-top: 10px;
+  font-size: 13px;
 }

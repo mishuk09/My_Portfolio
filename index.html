@@ -86,7 +86,7 @@
 
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                <a class="nav-link active btn-outline-success" aria-current="page" href="#">HOME</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="#">ABOUT</a>
@@ -105,8 +105,8 @@
 
             </div>
             <form class="d-flex ">
-              <input class="form-control me-4" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success " type="submit">Search</button>
+              <input class="form-control  " type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success ms-3" type="submit">Search</button>
             </form>
           </div>
         </div>
@@ -124,14 +124,28 @@
  <!-- Home page start-->
 
 
+
+
+
+ 
+  
+ 
+
  <div class="container  ">
   <div class="row">
     <div class="col-md-6 col-sm-12  ">
      <div class="description"> 
 
         <h3 class="p-2">Hello I'm</h3>
-       <h1 class="p-2">Mahadi Hasan Mishuk </h1>
-       <h2 class="p-2" >Junior Web Developer & Freelancher.</h2>
+       <!--<h1 class="p-2">Mahadi Hasan Mishuk </h1>-->
+       
+       <div class="hero-container" data-aos="fade-in">
+        <h1>Mahadi Hasan Mishuk</h1>
+        <p id="style-p">Junior &nbsp;<span class="typed" data-typed-items=" Web-Developer,Softwer Engineer & Freelancer"></span></p>
+      </div>
+
+
+       <!--<h2 class="p-2" >Junior Web Developer & Freelancher.</h2>-->
        <p class="p-2">I’m sincere,responsible,confident,dedicated,down to earth & trustworthy.Currently I am working with fontend web development   and softwer engineer . </p>
       </div>
     </div>
@@ -175,6 +189,12 @@
     <div class="col-lg-6   about-detils"> 
 
       <h1>Mahadi Hasan Mishuk</h1>
+       
+ 
+
+
+
+
       <h3 >Junior Web Developer & Freelancher.</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste alias vel doloribus nobis, distinctio, quaerat harum dolorem in quos sequi ab consectetur,  !</p>
 
@@ -191,7 +211,7 @@
       </div>
       <div class="div3">
         <div class="div31">Study:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRk University Rajkot.</div>
-        <div  class="div31"> Mail:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp mishukinfo09@gmail.com</div>
+        <div  class="div31"> Mail:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp mishukinfo09@gmail.com</div>
         
       </div>
       <div class="div3">
@@ -293,35 +313,187 @@
 
 
 
+
+
+
+ <!------------------------- Contact Section ------------------------------>
+
+
+
+
+ <section id="contact" class="contact container">
+  <div class="container">
+
+    <div class="section-title">
+      <h2 class="col-lg-5 " >Contact With Me</h2>
+      
+    </div>
+
+    <div class="row" data-aos="fade-in">
+
+      <div class="col-lg-5 d-flex align-items-stretch">
+        <div class="info">
+          <div class="address">
+            <i class="bi bi-geo-alt"></i>
+            <h4>Location:</h4>
+            <p>Rk University,Tramba,Rajkot(360020),Gujarat.</p>
+          </div>
+
+          <div class="email">
+            <i class="bi bi-envelope"></i>
+            <h4>Email:</h4>
+            <p>mishukinfo09@gmail.com</p>
+          </div>
+
+          <div class="phone">
+            <i class="bi bi-phone"></i>
+            <h4>Call:</h4>
+            <p>+91 7069089661</p>
+          </div>
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.993954922887!2d70.89866591444698!3d22.24030815069131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959b4a660019ee9%3A0x3d6254f36ed0e794!2sRK%20UNIVERSITY!5e0!3m2!1sen!2sin!4v1674241779497!5m2!1sen!2sin" width="350"  height="350px" style="border:0px; border-radius: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+      </div>
+
+      <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label for="name">Your Name</label>
+              <input type="text" name="name" class="form-control" id="name" required>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="name">Your Email</label>
+              <input type="email" class="form-control" name="email" id="email" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="name">Subject</label>
+            <input type="text" class="form-control" name="subject" id="subject" required>
+          </div>
+          <div class="form-group">
+            <label for="name">Message</label>
+            <textarea class="form-control" name="message" rows="10" required></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<!----------------------------------- End Contact Section --------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------------------Footer Start----------------------->
+
+
  
-<!--
+ 
 
 
 
 <footer>
   <div class="div6">
-
-
-
     <div class="footer-header0" >
 
        <h2>Follow Me</h2>
-      
+
+     </div>
+
+      <!--
+          <img src="assets/img/12.jpg" style="width: 100px;" alt="" class="img-fluid rounded-circle">
+      -->
+      <div class="profile">
+
+      <div class="social-links mt-3 text-center">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+
+      </div>
 
     </div>
 
-
-
-
-   <div class="small-icon">
-      <img src="/Icon/facebook.png" alt="">
-      <img src="/Icon/twitter.png" alt="">
-      <img src="/Icon/instagram.png" alt="">
-      <img src="/Icon/linkedin.png" alt="">
-
-   </div>
-
-   <p>Copyright © 2020 MAHADI   <br>
+    <p>Copyright © 2020 MAHADI   <br>
     </p>
 
 </div>
@@ -332,11 +504,9 @@
 
 
 
--->
-
-    
 
 
+<!------------------------Footer End----------------------->
     <!--JS link-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
