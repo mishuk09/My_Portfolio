@@ -313,7 +313,7 @@ section {
   margin-bottom: 30px;
   padding-bottom: 20px;
    
-  margin-left: 600px;
+  margin-left: 520px;
   color: #173b6c;
 }
 
@@ -833,9 +833,12 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
+   padding-top: 20px;
   padding-bottom: 130px;
   background-color: rgb(255, 248, 248);
-  border-radius: 5px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .contact .info {
