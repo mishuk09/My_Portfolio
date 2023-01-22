@@ -58,6 +58,16 @@ body{
 /* Home page start */
 
 
+.main-ing-0{
+  border-radius: 7px;
+}
+
+.typed{
+  background-color: ;
+}
+
+
+
 .description {
   margin-top: 100px;
 
@@ -370,74 +380,34 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
-
-
-
-.div6{
-
-  
-  height: 150px;
+.footer-div{
+  height: 300px;
   width: 100%;
-  background-color: rgb(11, 0, 62);
+  background-color: black;
 }
 
-.div6 h2{
-  color: white;
-  text-align: center;
-  padding-top: 20px;
-  
-  
 
-}
 
-.div6 p{
-  color: white;
-  text-align: center;
-   
 
-}
-#footer-heading{
-  
-  margin-top:20px;
-}
 
-.footer-header0 h2{
-  margin-top: 0px;
-  font-size: 22px;
-   
-  
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
  
-   
- 
 
-.div6 p{
-  padding-top: 10px;
-  font-size: 13px;
-}
+
+ 
