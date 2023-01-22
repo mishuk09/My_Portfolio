@@ -830,8 +830,10 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact {
-  padding-bottom: 100px;
+
+.contact{
+    border: 1px solid  rgb(245, 206, 206);
+    border-radius: 7px;
 }
 
 .contact .info {
@@ -839,6 +841,7 @@ section {
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 7px;
 }
 
 .contact .info i {
@@ -857,7 +860,7 @@ section {
 
 .contact .info h4 {
   padding: 0 0 0 60px;
-  font-size: 22px;
+  font-size: 19px;
   font-weight: 600;
   margin-bottom: 5px;
   color: #050d18;
@@ -910,6 +913,7 @@ section {
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 7px;
 }
 
 .contact .php-email-form .form-group {
@@ -1022,6 +1026,13 @@ section {
   }
 }
 
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -1069,10 +1080,29 @@ section {
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#footer {
+/* #footer {
   padding: 15px;
   color: #f4f6fd;
   font-size: 14px;
@@ -1095,10 +1125,22 @@ section {
   color: #eaebf0;
 }
 
-@media (max-width: 1199px) {
-  #footer {
-    position: static;
-    width: auto;
-    padding-right: 20px 15px;
-  }
+ .contact .info .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin-right: 10px;
 }
+
+.contact .info .social-links a:hover {
+  background: #149ddd;
+  color: #fff;
+} */
