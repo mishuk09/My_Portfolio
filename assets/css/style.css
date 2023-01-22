@@ -105,10 +105,10 @@ h6 {
   text-decoration: none;
 }
 
-.social-links a {
+#header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #1c1b1b;
+  background: #000000;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -309,11 +309,9 @@ section {
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   padding-bottom: 20px;
-   
-  margin-left: 520px;
+  position: relative;
   color: #173b6c;
 }
 
@@ -833,27 +831,14 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-   padding-top: 20px;
-  padding-bottom: 130px;
-  background-color: rgb(255, 248, 248);
-  border-radius: 10px;
-  padding-bottom: 20px;
-  margin-bottom: 30px;
+  padding-bottom: 100px;
 }
 
 .contact .info {
   padding: 30px;
- 
-  border-radius: 5px;
-  width: 400px;
-  
-}
-.info{
-  background-color: white;
+  background: #fff;
+  width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-  margin-left: 30px;
-
-
 }
 
 .contact .info i {
@@ -924,7 +909,6 @@ section {
   width: 100%;
   padding: 30px;
   background: #fff;
-  border-radius: 5px;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -1088,4 +1072,33 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
- 
+#footer {
+  padding: 15px;
+  color: #f4f6fd;
+  font-size: 14px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  z-index: 9999;
+  background: #040b14;
+}
+
+#footer .copyright {
+  text-align: center;
+}
+
+#footer .credits {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 13px;
+  color: #eaebf0;
+}
+
+@media (max-width: 1199px) {
+  #footer {
+    position: static;
+    width: auto;
+    padding-right: 20px 15px;
+  }
+}
